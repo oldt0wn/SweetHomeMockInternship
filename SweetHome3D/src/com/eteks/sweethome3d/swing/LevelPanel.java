@@ -263,7 +263,8 @@ public class LevelPanel extends JPanel implements DialogView {
          SwingTools.getLocalizedLabelText(preferences, LevelPanel.class, "nameColumn"),
          SwingTools.getLocalizedLabelText(preferences, LevelPanel.class, "elevationColumn"),
          SwingTools.getLocalizedLabelText(preferences, LevelPanel.class, "floorThicknessColumn"),
-         SwingTools.getLocalizedLabelText(preferences, LevelPanel.class, "heightColumn")};
+         SwingTools.getLocalizedLabelText(preferences, LevelPanel.class, "heightColumn"),
+         SwingTools.getLocalizedLabelText(preferences, LevelPanel.class, "volumeColumn")};
     this.levelsSummaryTable = new JTable(new LevelsTableModel(controller, columnNames));
     float resolutionScale = SwingTools.getResolutionScale();
     if (resolutionScale != 1) {
