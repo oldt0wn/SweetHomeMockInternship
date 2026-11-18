@@ -319,6 +319,7 @@ public class Home implements Serializable, Cloneable {
           HomePieceOfFurniture.SortableProperty.WIDTH,
           HomePieceOfFurniture.SortableProperty.DEPTH,
           HomePieceOfFurniture.SortableProperty.HEIGHT,
+              HomePieceOfFurniture.SortableProperty.VOLUME,
           HomePieceOfFurniture.SortableProperty.COLOR,
           HomePieceOfFurniture.SortableProperty.MOVABLE,
           HomePieceOfFurniture.SortableProperty.DOOR_OR_WINDOW,
